@@ -3,8 +3,8 @@
 </div>
 
 # React Infinite Calendar
-[![npm version](https://img.shields.io/npm/v/react-infinite-calendar.svg)](https://www.npmjs.com/package/@teikametrics/react-infinite-calendar)
-[![downloads](https://img.shields.io/npm/dm/react-infinite-calendar.svg)](https://www.npmjs.com/package/@teikametrics/react-infinite-calendar)
+[![npm version](https://img.shields.io/npm/v/@teikametrics/react-infinite-calendar.svg)](https://www.npmjs.com/package/@teikametrics/react-infinite-calendar)
+[![downloads](https://img.shields.io/npm/dm/@teikametrics/react-infinite-calendar.svg)](https://www.npmjs.com/package/@teikametrics/react-infinite-calendar)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/teikametrics/react-infinite-calendar/blob/master/LICENSE)
 ### Examples available here: <a href="#">http://teikametrics.github.io/react-infinite-calendar/</a>
 
