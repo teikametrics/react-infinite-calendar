@@ -92,6 +92,7 @@ export default class Day extends PureComponent {
           style={color ? {color} : null}
           className={classNames(styles.root, {
             [styles.padding]: isPadding,
+            [styles.disabled]: isDisabled,
             [styles.selected]: isSelected,
           }, className)}
           {...handlers}

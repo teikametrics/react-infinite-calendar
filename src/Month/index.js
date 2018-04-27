@@ -49,23 +49,26 @@ export default class Month extends PureComponent {
       for (let k = 0, len = row.length; k < len; k++) {
         day = row[k];
 
-        if (day < 0 || day > getDaysInMonth(getDateString(year, month, day))) {
+        const date = getDateString(year, month, day);
+
+        if (day < 0 || day > getDaysInMonth(date)) {
+          isDisabled = minDate && date < _minDate || maxDate && date > _maxDate;
           days[k] = (
             <DayComponent
               key={`day-${day}`}
               theme={theme}
               isPadding={true}
+              isDisabled={isDisabled}
               selected={selected}
               locale={locale}
               day={0}
-              date={getDateString(year, month, day)}
+              date={date}
               month={month}
               year={year}
               {...passThrough.Day}
             />
           );
         } else {
-          date = getDateString(year, month, day);
           isToday = (date === _today);
 
           isDisabled = (
