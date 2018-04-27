@@ -9,7 +9,7 @@ import {
   getWeek,
   getMonthsCount,
   getWeeksInMonth,
-  getWeeksInMonthNoPadding,
+  getRowCountInMonthWithHeader,
   animate,
 } from '../utils';
 import parse from 'date-fns/parse';
@@ -67,7 +67,7 @@ export default class MonthList extends Component {
       let {locale: {weekStartsOn}, months, rowHeight, showMonthLabels} = this.props;
       let {month, year} = months[index];
       let weeks = showMonthLabels ?
-        getWeeksInMonthNoPadding(month, year, weekStartsOn) :
+        getRowCountInMonthWithHeader(month, year, weekStartsOn) :
         getWeeksInMonth(month, year, weekStartsOn, index === months.length - 1);
       this.monthHeights[index] = weeks * rowHeight + (showMonthLabels ? rowHeight : 0);
     }

@@ -131,9 +131,6 @@ Dependencies
 ------------
 React Infinite Calendar has very few dependencies. It relies on [`react-tiny-virtual-list`](https://github.com/clauderic/react-tiny-virtual-list) for virtualization and [`date-fns`](https://github.com/date-fns/date-fns) for handling date manipulation. It also uses [recompose](https://github.com/acdlite/recompose) for extending the default functionality. It also has the following peerDependencies: [`react`](https://www.npmjs.com/package/react), and [`react-addons-css-transition-group`](https://www.npmjs.com/package/react-addons-css-transition-group).
 
-Reporting Issues
-----------------
-If you find an [issue](https://github.com/teikametrics/react-infinite-calendar/issues), please report it along with any relevant details to reproduce it. The easiest way to do so is to fork this [jsfiddle](https://jsfiddle.net/clauderic/4rhn03do/).
 
 Contributions
 ------------

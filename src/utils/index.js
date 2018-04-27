@@ -91,6 +91,12 @@ export function getWeek(yearStart, date, weekStartsOn) {
   );
 }
 
+/**
+ * Returns the number of months between 2 dates
+ * @param yearStart {number | Date}
+ * @param date {Date}
+ * @returns {number}
+ */
 export function getMonthsCount(yearStart, date) {
   const yearStartDate = (typeof yearStart === 'number')
     ? new Date(yearStart, 0, 1) // 1st Jan of the Year
@@ -140,7 +146,7 @@ export function getWeeksInMonth(
  * @param {Number} weekStartsOn - the index of the first day of the week (from 0 to 6)
  * @return {Number} - Returns the number of weeks for the given month
  */
-export function getWeeksInMonthNoPadding(
+export function getRowCountInMonthWithHeader(
   month,
   year = new Date().getFullYear(),
   weekStartsOn,
