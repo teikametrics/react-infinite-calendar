@@ -194,6 +194,7 @@ storiesOf('Display Options', module)
         start: addDays(new Date(), 1),
         end: addDays(new Date(), 2),
       }}
+      maxDate={addDays(new Date(), 3)}
       locale={{
         headerFormat: 'MMM Do',
       }}
