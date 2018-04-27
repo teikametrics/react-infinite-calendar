@@ -3,7 +3,7 @@
 // Definitions by: Christian Chown <https://github.com/christianchown>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.6
-declare module 'react-infinite-calendar' {
+declare module '@teikametrics/react-infinite-calendar' {
   import * as React from 'react';
 
   export interface SelectParams {
