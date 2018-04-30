@@ -3,7 +3,7 @@ import {setOptions} from '@kadira/storybook-addon-options';
 
 setOptions({
   name: 'INFINITE CALENDAR',
-  url: 'https://github.com/clauderic/react-infinite-calendar',
+  url: 'https://github.com/teikametrics/react-infinite-calendar',
   goFullScreen: false,
   showLeftPanel: true,
   showDownPanel: false,
