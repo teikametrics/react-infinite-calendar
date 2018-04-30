@@ -50,8 +50,8 @@ export default class Month extends PureComponent {
         day = row[k];
 
         const date = getDateString(year, month, day);
-
-        if (day < 0 || day > getDaysInMonth(date)) {
+        const daysInMonth = getDaysInMonth(new Date(year, month, 1));
+        if (day < 0 || day > daysInMonth) {
           isDisabled = minDate && date < _minDate || maxDate && date > _maxDate;
           days[k] = (
             <DayComponent
