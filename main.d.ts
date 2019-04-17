@@ -76,5 +76,5 @@ declare module '@teikametrics/react-infinite-calendar' {
   export class  WithRangeCalendar extends React.Component<CalendarProps> {}
   export function withRange(component: DefaultCalendar): WithRangeCalendar;
   export default DefaultCalendar;
-  export {default as Calendar};
+  export {DefaultCalendar as Calendar};
 }
